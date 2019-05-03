@@ -1,6 +1,7 @@
 # Skeleton-Poser
 
-Implementation of Skeleton animation and skinned mesh. This project is similar to https://github.com/alecjacobson/skeleton-poser. However, I don't use external library except Eigen. So you need not set a series of dependencies. 
+Implementation of Skeleton animation and skinned mesh. 
+This project is similar to https://github.com/alecjacobson/skeleton-poser. However, I don't use external library except Eigen. So you need not set a series of dependencies. 
 
 The weights map is calculated by Bounded Biharmonic Weights based on Siggraph 2011. I use libigl library written by ETH Zurich to calculate the weights and visualize the model.  As for this part, you can see my another repository.
 
